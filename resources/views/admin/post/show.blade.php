@@ -1,4 +1,4 @@
-@extends('template.default')
+@extends('template.backend.default')
 
 @section('content')
 <div class='row'>

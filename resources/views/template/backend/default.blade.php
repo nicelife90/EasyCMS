@@ -28,10 +28,10 @@ Copyright (C) 2011 - 2016 Hippy Québec - Montréal
 <div class="wrapper"> 
   
   <!-- Header --> 
-  @include('template.header') 
+  @include('template.backend.header') 
   
   <!-- Sidebar --> 
-  @include('template.sidebar') 
+  @include('template.backend.sidebar') 
   
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper"> 
@@ -50,7 +50,7 @@ Copyright (C) 2011 - 2016 Hippy Québec - Montréal
   </div>
   <!-- /.content-wrapper --> 
   
-  @include('template.footer') 
+  @include('template.backend.footer') 
   
 </div>
 <!-- ./wrapper --> 
