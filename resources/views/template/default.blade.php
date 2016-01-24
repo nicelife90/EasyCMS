@@ -14,11 +14,11 @@ Copyright (C) 2011 - 2016 Hippy Québec - Montréal
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Hippy Québec - {{ $page_title or "Hippy Québec" }}</title>
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-<link rel="stylesheet" href="{{ asset("bower_components/AdminLTE/bootstrap/css/bootstrap.min.css") }}">
+<link rel="stylesheet" href="{{ asset("AdminLTE/bootstrap/css/bootstrap.min.css") }}">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<link rel="stylesheet" href="{{ asset("bower_components/AdminLTE/dist/css/AdminLTE.min.css") }}">
-<link rel="stylesheet" href="{{ asset("bower_components/AdminLTE/dist/css/skins/skin-black.min.css") }}">
+<link rel="stylesheet" href="{{ asset("AdminLTE/dist/css/AdminLTE.min.css") }}">
+<link rel="stylesheet" href="{{ asset("AdminLTE/dist/css/skins/skin-black.min.css") }}">
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -58,11 +58,11 @@ Copyright (C) 2011 - 2016 Hippy Québec - Montréal
 <!-- REQUIRED JS SCRIPTS --> 
 
 <!-- jQuery 2.1.4 --> 
-<script src="{{ asset("bower_components/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script> 
+<script src="{{ asset("AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script> 
 <!-- Bootstrap 3.3.5 --> 
-<script src="{{ asset("bower_components/AdminLTE/bootstrap/js/bootstrap.min.js")}}"></script> 
+<script src="{{ asset("AdminLTE/bootstrap/js/bootstrap.min.js")}}"></script> 
 <!-- App --> 
-<script src="{{ asset("bower_components/AdminLTE/dist/js/app.min.js")}}"></script> 
+<script src="{{ asset("AdminLTE/dist/js/app.min.js")}}"></script> 
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
