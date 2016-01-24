@@ -22,17 +22,6 @@ class CreatePostsTable extends Migration
 			$table->text('content_en');
 			$table->integer('user_id')->unsigned()->nullable();
 			$table->timestamps();
-			
-			/*$table->foreign('menu_id')
-				  ->references('id')->on('menu')
-				  ->onDelete('cascade')
-				  ->onUpdate('cascade');
-			
-			$table->foreign('user_id')
-				  ->references('id')->on('users')
-				  ->onDelete('set null')
-				  ->onUpdate('cascade');*/
-			
 		});
     }
 

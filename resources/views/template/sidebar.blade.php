@@ -17,7 +17,7 @@
     <!-- Sidebar Menu -->
     <ul class="sidebar-menu">
       <li class="header">Menu de gestion</li>
-      <li class="active"><a href="/admin/dashboard"><i class="fa fa-home"></i> <span>Accueil</span></a></li>
+      <li class="active"><a href="{{ url('/') }}/admin/dashboard"><i class="fa fa-home"></i> <span>Accueil</span></a></li>
       
       <!-- FILES -->
       <li class="treeview"> <a href="#"><i class="fa fa-image"></i> <span>Gestion des fichiers</span> <i class="fa fa-angle-left pull-right"></i></a>
@@ -31,8 +31,8 @@
       <!-- USER -->
       <li class="treeview"> <a href="#"><i class="fa fa-user"></i> <span>Utilisateurs</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
-          <li><a href="/admin/user/add">Ajouter</a></li>
-          <li><a href="/admin/user">Modifier / Supprimer</a></li>
+          <li><a href="{{ url('/') }}/admin/user/add">Ajouter</a></li>
+          <li><a href="{{ url('/') }}/admin/user">Modifier / Supprimer</a></li>
         </ul>
       </li>
       <!-- /.USER --> 
@@ -40,9 +40,9 @@
       <!-- PAGE -->
       <li class="treeview"> <a href="#"><i class="fa fa-television"></i> <span>Pages</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
-          <li><a href="/admin/user/add">Ajouter</a></li>
-          <li><a href="/admin/user">Modifier</a></li>
-          <li><a href="/admin/user">Supprimer</a></li>
+          <li><a href="{{ url('/') }}/admin/user/add">Ajouter</a></li>
+          <li><a href="{{ url('/') }}/admin/user">Modifier</a></li>
+          <li><a href="{{ url('/') }}/admin/user">Supprimer</a></li>
         </ul>
       </li>
       <!-- /.PAGE --> 
@@ -50,9 +50,9 @@
       <!-- POST -->
       <li class="treeview"> <a href="#"><i class="fa fa-pencil"></i> <span>Articles</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
-          <li><a href="/admin/user/add">Ajouter</a></li>
-          <li><a href="/admin/post">Modifier</a></li>
-          <li><a href="/admin/user">Supprimer</a></li>
+          <li><a href="{{ url('/') }}/admin/user/add">Ajouter</a></li>
+          <li><a href="{{ url('/') }}/admin/post">Modifier</a></li>
+          <li><a href="{{ url('/') }}/admin/user">Supprimer</a></li>
         </ul>
       </li>
       <!-- /.POST --> 
@@ -62,7 +62,7 @@
         <ul class="treeview-menu">
           <li><a href="http://hippy-quebec.org:2082/3rdparty/phpMyAdmin/index.php" target="_blank">PHPMyAdmin</a></li>
           <li><a href="http://hippy-quebec.org:2082/" target="_blank">Hosting Panel</a></li>
-          <li><a href="/admin/tools/db">Sauvegarde de la base de donnée</a></li>
+          <li><a href="{{ url('/') }}/admin/tools/db">Sauvegarde de la base de donnée</a></li>
         </ul>
       </li>
       <!-- /.ADMIN -->
