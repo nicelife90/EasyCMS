@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace EasyCMS\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

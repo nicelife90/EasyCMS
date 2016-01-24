@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace EasyCMS\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use EasyCMS\Http\Requests;
+use EasyCMS\Http\Controllers\Controller;
 
-use App\Models\Movies;
+use EasyCMS\Models\Movies;
 
 class DashboardController extends Controller
 {

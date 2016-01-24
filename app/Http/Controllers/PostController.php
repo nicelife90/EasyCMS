@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace EasyCMS\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use EasyCMS\Http\Requests;
+use EasyCMS\Http\Controllers\Controller;
 
-use App\Models\Posts;
-use App\Models\Menu;
+use EasyCMS\Models\Posts;
+use EasyCMS\Models\Menu;
 
 class PostController extends Controller
 {

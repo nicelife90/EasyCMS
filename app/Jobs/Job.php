@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace EasyCMS\Jobs;
 
 use Illuminate\Bus\Queueable;
 
