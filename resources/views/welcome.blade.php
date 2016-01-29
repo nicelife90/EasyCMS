@@ -1,9 +1,7 @@
 @extends('template.frontend.default')
 
 @section('intro') 
-<strong>Mot du président</strong><br>
-Je vous encourage à suivre avec nous le chemin de HIPPY Québec menant vers l'alphabétisation de votre enfant d'âge pré-scolaire. Aidez-le à réussir !<br>
-<strong>Glenn Rubenstein</strong>
+{{ $slogan->value }}
 @endsection
 
 @section('content')

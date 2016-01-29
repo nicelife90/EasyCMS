@@ -2,9 +2,7 @@
 Route::group(['middleware' => ['web']], function () {
    
 	//FRONTEND ROUTE
-	Route::get('/', function () {
-    	return view('welcome');
-	});
+	Route::get('/', 'WelcomeController@index');
 
 	//BACKEND ROUTE
 	Route::group(array('prefix'=>'admin'), function(){
