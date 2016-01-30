@@ -2,7 +2,9 @@
 Route::group(['middleware' => ['web']], function () {
    
 	//FRONTEND ROUTE
-	Route::get('/', 'WelcomeController@index');
+	Route::get('/', 'FrontendController@index');
+	Route::get('/page/{id}', 'FrontendController@page')->where('id', '[0-9]+');
+	
 
 	//BACKEND ROUTE
 	Route::group(array('prefix'=>'admin'), function(){
@@ -10,8 +12,7 @@ Route::group(['middleware' => ['web']], function () {
 		//Dashboard	
 		Route::get('/dashboard', 'DashboardController@show');
 		
-		//PAGE
-		Route::get('/page', 'PageController@show');
+		
 		
 		//POST
 		Route::get('/post', 'PostController@show');

@@ -15,7 +15,7 @@ class Menu extends Model
 	 */
 	 public function getAllMenuItems(){
 		
-		return $this->select(['id', 'title_fr'])->orderBy('title_fr')->get(); 
+		return $this->select(['id', 'title_fr', 'parent'])->orderBy('title_fr')->get(); 
 		 
 	 }
 }
